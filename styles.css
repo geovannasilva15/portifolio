@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #0f172a, #1e293b, #334155);
+    color: #ffffff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: rgba(15, 23, 42, 0.9);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #facc15;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #facc15;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.technology-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.technology-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+    cursor: pointer;
+}
+
+.technology-item:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.technology-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.projects {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contact {
+    padding: 100px 20px;
+    text-align: center;
+    background: #1e293b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Animação de entrada suave */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.technology-item, .projects, .contact {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Rolagem suave e efeito de destaque */
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 80px 10px;
+    }
+
+    .technology-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
