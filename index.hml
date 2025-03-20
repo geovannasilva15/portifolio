@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geovanna Silva - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#technologies">Tecnologias</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Geovanna Eduarda da Silva, sou formada em Gestão de Tecnologia da Informação e apaixonada por inovação, segurança digital e inteligência artificial.
+
+            Meu grande interesse está na cibersegurança e no direito digital, áreas nas quais busco aprofundar meu conhecimento e contribuir para um ambiente tecnológico mais seguro e acessível.
+            
+            Com habilidades analíticas e pensamento crítico, gosto de resolver problemas e desenvolver soluções eficientes. Meu objetivo é criar tecnologias seguras e inovadoras que impactem positivamente empresas e pessoas.
+            
+            Se quiser trocar uma ideia sobre tecnologia, inovação ou segurança digital, estou sempre disponível para conversar! 🚀</p>
+    </section>
+
+    <section id="technologies" class="technology-container">
+        <h2>Tecnologias que Utilizo</h2>
+        <div class="technology-item">
+            <img src="images/Python-logo-notext.svg" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="technology-item">
+            <img src="images/Tux.png" alt="Linux">
+            <p>Linux</p>
+        </div>
+        <div class="technology-item">
+            <img src="images/HTML5_logo_and_wordmark.svg" alt="HTML5">
+            <p>HTML5</p>
+        </div>
+        <div class="technology-item">
+            <img src="images/CSS3_logo_and_wordmark.svg" alt="CSS3">
+            <p>CSS3</p>
+        </div>
+        <div class="technology-item">
+            <img src="images/JavaScript-logo.png" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+        <div class="technology-item">
+            <img src="images/Java_programming_language_logo.svg" alt="Java">
+            <p>Java (Básico)</p>
+        </div>
+        <div class="technology-item">
+            <img src="images/excel-logo.svg" alt="Excel">
+            <p>Excel</p>
+        </div>
+        <div class="technology-item">
+            <img src="images/powerbi-logo.svg" alt="Power BI">
+            <p>Power BI</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Meus Projetos</h2>
+        <div class="project-item">
+            <h3>🔐 SecurityCheck - Scanner de Segurança para Aplicações Web</h3>
+            <p>O <strong>SecurityCheck</strong> é uma ferramenta desenvolvida em <strong>Python</strong> que analisa aplicações web em busca de vulnerabilidades comuns, como <em>SQL Injection</em>, <em>Cross-Site Scripting (XSS)</em> e cabeçalhos de segurança ausentes.</p>
+            <p><strong>Funcionalidades:</strong></p>
+            <ul>
+                <li>✅ Varredura de vulnerabilidades em URLs informadas pelo usuário.</li>
+                <li>✅ Análise de cabeçalhos HTTP para verificar a implementação de segurança.</li>
+                <li>✅ Detecção de falhas básicas em formulários e scripts maliciosos.</li>
+                <li>✅ Geração de relatório detalhado com as vulnerabilidades encontradas.</li>
+            </ul>
+            <p><strong>Tecnologias Utilizadas:</strong> Python, Requests, BeautifulSoup, Flask, Linux.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>📞 Telefone: <a href="tel:+5511911687141">(11) 91168-7141</a></p>
+        <p>📧 E-mail: <a href="mailto:geovanna.eduarda2003@gmail.com">geovanna.eduarda2003@gmail.com</a></p>
+        <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/geovanna-silva-55744022a" target="_blank">Geovanna Silva</a></p>
+    </section>
+</body>
+</html>
